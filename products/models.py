@@ -1,4 +1,7 @@
 from django.db import models
+from review.models import Review
+
+
 
 # Create your models here.
 
@@ -9,3 +12,5 @@ class Product(models.Model):
     inventory_quantity = models.IntegerField()
     product_image = models.CharField(max_length=255)
 
+
+   
